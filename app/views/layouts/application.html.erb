@@ -4,15 +4,16 @@
     <title>RailsAuthentication</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
+
   <%= render "shared/navbar" %>
 		<h2>Conflicting</h2>
+
     <%= yield %>
     <%= render "shared/flashes" %>
   </body>
 </html>
+<%# hello %>
